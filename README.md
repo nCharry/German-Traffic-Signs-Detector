@@ -16,16 +16,26 @@ Before making predictions with the images of the test and user folders, you must
 
     python app.py train -m [chosen model] -d [directory with trainig data]
 
+To consult help use:
 
+    python app.py train --help
   
 **3. Test Models** 
 
 Before executing this command, make sure you have completed step 2, should be executed as follows:
 
     python app.py test -m [chosen model] -d [directory with trainig data]
+ 
+To consult help use:
+ 
+    python app.py test --help
 
 **4. Infer new images**
 
-Before executing this command, make sure you have completed step 2, should be executed as follows:
+Before executing this command, make sure you have completed step 2 and provide the images to the images/user folder, should be executed as follows:
   
     python app.py infer -m [chosen model] -d [directory with user data]
+
+To consult help use:
+ 
+    python app.py infer --help
